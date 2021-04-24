@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>NAIMA Health</title>        
+</head>
+
+<body>
+    <header>
+        <nav class="topnav navbar-expand-sm navbar-fixed-top">
+            <div>
+                <a class="navbar-brand d-none d-sm-block" href="index.html"><img class="img_1" src="img/logo.png" height="25" width="25" id="logo" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mhpNavbar">
+                    <span class="navbar-toggler-icon"><img class="img_1" src="img/logo.png" height="25" width="25" id="logo" /></span>
+                </button>
+                <div class="topnav-right collapse navbar-collapse" id="mhpNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mhp.html"><p3 class="font-italic">MyHealthyPregnancy</p3></a>
+                        </li>
+                        <div class=divider></div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="mf-4">
+
+        <h1 class="h1 div_main centered">Get in touch</h1>
+        <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Do no hesitate to message us!</p>
+    
+        <div class="row">
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">Business Inquiries</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">Product Questions</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="phone" name="phone" class="form-control">
+                                <label for="phone" class="">Your Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control" name="contact" id="contact">
+                                <option>Select...</option>
+                                <option>Call</option>
+                                <option>Email</option>
+                                <option>No Preference</option>
+                            </select>
+                            <label for="contact" class="">How should we reach you?</label>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="subject" name="subject" rows="2" class="form-control"></textarea>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Please let us know more about your inquiry</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left">
+                        <button type="submit">Send</button> 
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3 text-center">
+                <img class="d-block w-100 img-responsive img-thumbnail" src="img/logo_2.png" alt="logo2"/>
+                <p class="p1 d-none d-sm-block ">Naima Health was spun out from Carnegie Mellon University and the University of Pittsburgh to develop and commercialize the MyHealthyPregnancy app. Our team of leading scientists and maternal-fetal health clinicians created this tool to help pregnant women minimize their risk of adverse pregnancy outcomes</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="d-none d-sm-block col text-left">
+                        <a href="index.html" class="link-custom">Home</a>
+                        <div class="divider"></div>
+                        <a href="aboutus.html" class="link-custom">About Us</a>
+                        <div class="divider"></div>
+                        <a href="contactus.html" class="link-custom">Contact Us</a>
+                </div>
+                <div class="col text-right">
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
+    <!-- endbuild -->
+</body>
+</html>
